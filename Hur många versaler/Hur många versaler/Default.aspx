@@ -17,7 +17,7 @@
             <br />
             <%-- Knappar som startar uträkningen & återställer formuläret till dess ursprungliga skick. --%>
             <asp:Button ID="MyButton" runat="server" Text="Bestäm antalet versaler" OnClick="MyButton_Click" />
-            <asp:Button ID="ResetButton" runat="server" Type="Reset" Text="Rensa" Visible="false" />
+            <asp:Button ID="ResetButton" runat="server" Text="Rensa" Visible="false" />
         </div>
     </form>
 </body>
